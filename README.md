@@ -40,7 +40,7 @@ Este projeto é uma solução simples e eficaz para ajudar a proteger idosos de 
 
 ---
 
-[Imgur](https://imgur.com/Qee4RJ6)
+![img](https://i.imgur.com/Qee4RJ6.png)
 
 ---
 
