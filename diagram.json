@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -58, "left": 96, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 158.3, "left": 112, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 64.44,
+      "left": -58.26,
+      "rotate": -90,
+      "attrs": { "color": "red", "flip": "" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 110.96,
+      "left": 15.34,
+      "attrs": { "value": "1200" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -56.36,
+      "left": 8.66,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "imu1:VCC", "green", [ "h15.47", "v63.58" ] ],
+    [ "imu1:GND", "esp:GND.2", "black", [ "v-11.38", "h-90.03", "v-61.7" ] ],
+    [ "imu1:SDA", "esp:D21", "orange", [ "v-18.04", "h77.17", "v-141.14" ] ],
+    [ "led1:C", "r1:1", "black", [ "h0" ] ],
+    [ "r1:2", "esp:GND.2", "black", [ "v-1.26", "h12.43", "v-27.7" ] ],
+    [ "esp:D26", "led1:A", "orange", [ "v1.04", "h-105.34" ] ],
+    [ "esp:D27", "bz1:2", "magenta", [ "h0" ] ],
+    [ "bz1:1", "esp:GND.2", "black", [ "v0" ] ],
+    [ "imu1:SCL", "esp:D22", "yellow", [ "v-15.38", "h59.57", "v-172.7" ] ],
+    [ "imu1:GND", "esp:GND.1", "black", [ "v-26.82", "h87.84" ] ]
+  ]
+}
