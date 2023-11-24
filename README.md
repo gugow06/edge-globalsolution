@@ -61,6 +61,10 @@ Para executar o projeto, é necessário criar uma conta gratuita no Wokwi.
 
 https://wokwi.com/projects/382230078980267009
 
+https://youtu.be/iIytdgn5vok
+
+https://io.adafruit.com/gupessoa/feeds/queda
+
 # Desenvolvedor
 
 |       Aluno       |     Rm     |   Turma   |
