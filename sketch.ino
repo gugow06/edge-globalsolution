@@ -33,7 +33,7 @@ int tamFila = 5;
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
 #define AIO_USERNAME    "gupessoa" // Seu usuario cadastrado na plataforma da Adafruit
-#define AIO_KEY         "aio_VCpV37InM72VqHVcWgYpHvnSd5rt"       // Sua key da dashboard
+#define AIO_KEY         "aio_TNav11CnFYynypL7dbmfFEvbiSy"       // Sua key da dashboard
 #define TOPIC           "/feeds/queda"       // Sua key da dashboard
 
 Adafruit_MPU6050 mpu;
