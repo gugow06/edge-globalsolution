@@ -40,6 +40,10 @@ Este projeto é uma solução simples e eficaz para ajudar a proteger idosos de 
 
 ---
 
+[Imgur](https://imgur.com/Qee4RJ6)
+
+---
+
 # Observações
 
 Este projeto é apenas uma simulação. O alarme real deve ser montado e conectado a um sensor de altura físico.
