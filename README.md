@@ -1,3 +1,9 @@
+# QuickCare
+
+![bannerQuick](https://imgur.com/8VgDRpX.png)
+
+---
+
 # Introdução
 
 Este projeto consiste em um alarme de queda para idosos que utiliza um sensor de altura para detectar a queda. O alarme é ativado quando a altura da queda é superior a um valor pré-definido, neste caso 15cm. O alarme é sonoro, alertando pessoas próximas do acidente.
